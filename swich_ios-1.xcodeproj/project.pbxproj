@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		D73B13162183F0DD007F193A /* swich_ios-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swich_ios-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D73B13192183F0DD007F193A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D73B131B2183F0DD007F193A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D73B131B2183F0DD007F193A /* ViewController.swift */ = {isa = PBXFileReference; indentWidth = 13; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; tabWidth = 15; };
 		D73B131E2183F0DD007F193A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D73B13202183F0DE007F193A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D73B13232183F0DE007F193A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
