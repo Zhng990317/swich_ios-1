@@ -14,8 +14,7 @@ class ViewController:UIViewController {
     @IBOutlet weak var zxc: UITextField!
     var temp : Double = 0.0
     var flag = 0
-    var result :Double = 0.0
-
+    
     @IBAction func dot(_ sender: Any) {
             zxc.text = zxc.text! + "."
     }
@@ -99,166 +98,157 @@ class ViewController:UIViewController {
         
     }
     
-    @IBAction func jia(_ sender: Any) {
+    @IBAction func add(_ sender: Any) {
         
         if zxc.text != "" {
             if flag == 2 {
-                result = temp - Double(zxc.text!)!
+                temp = temp - Double(zxc.text!)!
                 zxc.text = "\(temp)"
                 zxc.text = ""
-                
             }
             if flag == 3 {
-                result = temp * Double(zxc.text!)!
+                temp = temp * Double(zxc.text!)!
                 zxc.text = "\(temp)"
                 zxc.text = ""
-                
-            }
+             }
             if flag == 4 {
-                result = temp / Double(zxc.text!)!
+                temp = temp / Double(zxc.text!)!
                 zxc.text = "\(temp)"
                 zxc.text = ""
-                
-            }
+             }
         }
+        
         if flag == 1 {
             if zxc.text == "" {
                 zxc.text = "0"
             }
             temp = temp + Double(zxc.text!)!
-            zxc.text = "\(temp)"
+            zxc.text = ""
         }
-        else {
+        if flag == 0 {
             temp = Double(zxc.text!)!
             zxc.text = ""
         }
         flag = 1
-        
     }
-    @IBAction func jian(_ sender: Any) {
+    @IBAction func pre(_ sender: Any) {
        
         if zxc.text != "" {
             if flag == 1 {
-                result = temp + Double(zxc.text!)!
+                temp = temp + Double(zxc.text!)!
                 zxc.text = "\(temp)"
                 zxc.text = ""
-                
             }
             if flag == 3 {
-                result = temp * Double(zxc.text!)!
+                temp = temp * Double(zxc.text!)!
                 zxc.text = "\(temp)"
                 zxc.text = ""
-                
             }
             if flag == 4 {
-                result = temp / Double(zxc.text!)!
+                temp = temp / Double(zxc.text!)!
                 zxc.text = "\(temp)"
                 zxc.text = ""
-                
             }
         }
+        
         if flag == 2 {
             if zxc.text == "" {
                 zxc.text = "0"
             }
             temp = temp - Double(zxc.text!)!
-            zxc.text = "\(temp)"
+            zxc.text = ""
         }
-        else {
+        if flag == 0 {
             temp = Double(zxc.text!)!
             zxc.text = ""
         }
-         flag = 2
+        flag = 2
         
     }
-    @IBAction func cheng(_ sender: Any) {
+    @IBAction func mvl(_ sender: Any) {
         
         if zxc.text != ""{
             if flag == 1 {
-                result = temp + Double(zxc.text!)!
+                temp = temp + Double(zxc.text!)!
                 zxc.text = "\(temp)"
                 zxc.text = ""
-                
             }
             if flag == 2 {
-                result = temp - Double(zxc.text!)!
+                temp = temp - Double(zxc.text!)!
                 zxc.text = "\(temp)"
                 zxc.text = ""
-                
             }
             if flag == 4 {
-                result = temp / Double(zxc.text!)!
+                temp = temp / Double(zxc.text!)!
                 zxc.text = "\(temp)"
                 zxc.text = ""
-                
             }
         }
+        
         if flag == 3 {
             if zxc.text == "" {
-                zxc.text = "1"
+                zxc.text = "3"
             }
             temp = temp * Double(zxc.text!)!
-            zxc.text = "\(temp)"
+            zxc.text = ""
         }
-        else {
+        if flag == 0 {
             temp = Double(zxc.text!)!
             zxc.text = ""
         }
         flag = 3
         
     }
-    @IBAction func chu(_ sender: Any) {
+    @IBAction func div(_ sender: Any) {
        
         if zxc.text != "" {
             if flag == 1 {
-                result = temp + Double(zxc.text!)!
+                temp = temp + Double(zxc.text!)!
                 zxc.text = "\(temp)"
                 zxc.text = ""
-                
             }
             if flag == 2 {
-                result = temp - Double(zxc.text!)!
+                temp = temp - Double(zxc.text!)!
                 zxc.text = "\(temp)"
                 zxc.text = ""
-                
             }
             if flag == 3 {
-                result = temp * Double(zxc.text!)!
+                temp = temp * Double(zxc.text!)!
                 zxc.text = "\(temp)"
                 zxc.text = ""
-                
             }
         }
+        
         if flag == 4 {
             if zxc.text == "" {
                 zxc.text = "1"
             }
             temp = temp / Double(zxc.text!)!
-            zxc.text = "\(temp)"
+            zxc.text = ""
         }
-        else {
+        if flag == 0 {
             temp = Double(zxc.text!)!
             zxc.text = ""
         }
-         flag = 4
+        flag = 4
         
     }
     
-    @IBAction func baifen(_ sender: Any) {
+    @IBAction func precent(_ sender: Any) {
         temp = Double(zxc.text!)! / 100
         zxc.text = "\(temp)"
     }
-    @IBAction func zhengfu(_ sender: Any) {
+    @IBAction func plus_minus(_ sender: Any) {
         temp = Double(zxc.text!)! * (-1)
         zxc.text = "\(temp)"
     }
     
-    @IBAction func dengyu(_ sender: Any) {
+    @IBAction func result (_ sender: Any) {
         if flag == 1 {
             temp = temp + Double(zxc.text!)!
         }
         if flag == 2 {
-            temp = temp -  Double(zxc.text!)!
+            temp = temp - Double(zxc.text!)!
         }
         if flag == 3 {
             temp = temp * Double(zxc.text!)!

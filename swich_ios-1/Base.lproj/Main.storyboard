@@ -77,7 +77,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="-"/>
                                 <connections>
-                                    <action selector="jian:" destination="BYZ-38-t0r" eventType="touchUpInside" id="36I-PL-cni"/>
+                                    <action selector="pre:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6vr-Ii-Nxl"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zv3-Ix-Ak3">
@@ -86,7 +86,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="x"/>
                                 <connections>
-                                    <action selector="cheng:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ajw-ma-Spd"/>
+                                    <action selector="mvl:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cqC-Py-OUI"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="osl-Ax-aGK">
@@ -95,7 +95,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="/"/>
                                 <connections>
-                                    <action selector="chu:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Ob-tY-GNp"/>
+                                    <action selector="div:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mkk-PE-XaO"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zw7-sa-rXQ">
@@ -104,7 +104,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="="/>
                                 <connections>
-                                    <action selector="dengyu:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V4y-q8-IIf"/>
+                                    <action selector="result:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5lL-ab-5kT"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="800-mW-OIr">
@@ -157,7 +157,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title=" +/-"/>
                                 <connections>
-                                    <action selector="zhengfu:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rNg-3Z-s4M"/>
+                                    <action selector="plus_minus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tZE-oq-dx4"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WJf-T7-vXu">
@@ -166,7 +166,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="+"/>
                                 <connections>
-                                    <action selector="jia:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hzn-T7-E2J"/>
+                                    <action selector="add:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A7D-16-hrO"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hJD-xg-wxm">
@@ -181,7 +181,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="%"/>
                                 <connections>
-                                    <action selector="baifen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eGc-Tg-fqX"/>
+                                    <action selector="precent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y67-9Z-Hde"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uol-TB-pWy">
