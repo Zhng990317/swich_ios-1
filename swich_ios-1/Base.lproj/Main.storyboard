@@ -198,7 +198,7 @@
                         <viewLayoutGuide key="safeArea" id="qvi-g8-U2M"/>
                     </view>
                     <connections>
-                        <outlet property="zxc" destination="hJD-xg-wxm" id="cqV-m6-mUE"/>
+                        <outlet property="show" destination="hJD-xg-wxm" id="sXB-Pr-Fc3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
