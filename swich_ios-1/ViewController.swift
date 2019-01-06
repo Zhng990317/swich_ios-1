@@ -74,7 +74,7 @@ class ViewController:UIViewController {
             temp = temp + Double(zxc.text!)!
             zxc.text = ""
         }
-        if flag == 0 {
+        else {
             temp = Double(zxc.text!)!
             zxc.text = "\(temp)"
             zxc.text = ""
@@ -88,7 +88,7 @@ class ViewController:UIViewController {
             zxc.text = "\(temp)"
             zxc.text = ""
         }
-        if flag == 0 {
+        else {
             temp = Double(zxc.text!)!
             zxc.text = ""
         }
@@ -102,7 +102,7 @@ class ViewController:UIViewController {
             zxc.text = "\(temp)"
             zxc.text = ""
         }
-        if flag == 0 {
+        else {
             temp = Double(zxc.text!)!
             zxc.text = ""
         }
@@ -116,7 +116,7 @@ class ViewController:UIViewController {
             zxc.text = "\(temp)"
             zxc.text = ""
         }
-        if flag == 0 {
+        else {
             temp = Double(zxc.text!)!
             zxc.text = ""
         }
